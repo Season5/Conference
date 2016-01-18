@@ -110,6 +110,7 @@ img:hover{
     
     
 }
+
 .button{
     height: 50%;
     
@@ -118,6 +119,11 @@ img:hover{
     background-color: orange;
 
 }
+#viewmore{
+    margin-top: 0;
+    margin-bottom: 5%;
+}
+
 .button:hover{
     background-color: orange;
     opacity: 0.5;
@@ -135,15 +141,27 @@ img:hover{
     color: orange;
         padding-top: 5%;
 }
-}
+
 
 
 
 /********schedule***********/
 
+.schedule h4{
+        font-size: 70px;
+/*     border-bottom: 1px solid; */
+    color: orange;
+        padding-top: 5%;
 
-
-
+}
+#schedulesection{
+    text-align: center;
+}
+.schedule{
+    text-align: center;
+    background-color: mintcream;
+    margin-bottom: 15%;
+}
 
 /********register***********/
 

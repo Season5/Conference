@@ -19,9 +19,9 @@
   </div>
   <div class="top-bar-right">
     <ul class="menu">
-  <li><a href="#">Overview</a></li>
-  <li><a href="#">Schedule</a></li>
-  <li><a href="#">Register</a></li>
+  <li><a href="#overviewsection">Overview</a></li>
+  <li><a href="#schedulesection">Schedule</a></li>
+  <li><a data-open="register">Register</a></li>
 </ul>
   </div>
 </div>
@@ -48,7 +48,7 @@
 <!--      about-->
       <section class="about">
           <div class="overview wrap">
-          <h4>Overview</h4>
+          <h4 id="overviewsection">Overview</h4>
           <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos "</p>
               </div>
           <div class="row small-up-1 medium-up-3 speakers ">
@@ -99,7 +99,9 @@
                   </div>
 
   </div>
-              <a  href="#" class="button radius">View More Speakers</a>
+          </div>
+          <div class="row">
+              <a  href="#" class="button radius" id="viewmore">View More Speakers</a>
               
           </div>
               
@@ -107,11 +109,167 @@
       
 <!--      schedule-->
 
-      <section>
+      <section class="schedule">
+          <div class="overview wrap">
+              <h4 id="schedulesection">Schedule</h4>
+              <div class="row small-up-1 large-up-3">
+                  <ul class="accordion" data-accordion="5tl15o-accordion" data-allow-all-closed="true" role="tablist">
+                      <li class="daytitle">
+                          <h5>DAY ONE</h5>
+                          <p>Planning &amp; Prototyping</p>
+                      </li>
+
+                      <li class="accordion-item">
+
+                          <a href="#" class="accordion-title" aria-controls="xzogm5-accordion" role="tab" id="xzogm5-accordion-label" aria-expanded="false" aria-selected="false"><div class="event-time large-8"><i class="fa fa-clock-o"></i>09:00 - 09:30</div>Welcome</a>
+
+                          <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="xzogm5-accordion-label" aria-hidden="true" id="xzogm5-accordion" style="display: none;">
+      Panel 1. Lorem ipsum dolor
+                          </div>
+                      </li>
+                      <li class="accordion-item">
+    <a href="#" class="accordion-title" aria-controls="q06uhc-accordion" role="tab" id="q06uhc-accordion-label" aria-expanded="false" aria-selected="false"><div class="event-time large-8"><i class="fa fa-clock-o"></i>09:30 - 10:30</div>Introduction</a>
+    <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="q06uhc-accordion-label" aria-hidden="true" id="q06uhc-accordion" style="display: none;">
+      Panel 2. Lorem ipsum dolor
+    </div>
+  </li>
+  <li class="accordion-item">
+    <a href="#" class="accordion-title" aria-controls="iw2hcj-accordion" role="tab" id="iw2hcj-accordion-label" aria-expanded="false" aria-selected="false"><div class="event-time large-8"><i class="fa fa-clock-o"></i>10:30 - 12:30</div>Accordion 3</a>
+    <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="iw2hcj-accordion-label" aria-hidden="true" id="iw2hcj-accordion" style="display: none;">
+      Panel 3. Lorem ipsum dolor
+    </div>
+  </li>
+
+  <li class="accordion-item">
+    <a href="#" class="accordion-title" aria-controls="iw2hcj-accordion" role="tab" id="iw2hcj-accordion-label" aria-expanded="false" aria-selected="false"><div class="event-time large-8"><i class="fa fa-clock-o"></i>13:00 - 13:30</div>Accordion 3</a>
+    <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="iw2hcj-accordion-label" aria-hidden="true" id="iw2hcj-accordion" style="display: none;">
+      Panel 3. Lorem ipsum dolor
+    </div>
+  </li>
+
+  <li class="accordion-item">
+    <a href="#" class="accordion-title" aria-controls="iw2hcj-accordion" role="tab" id="iw2hcj-accordion-label" aria-expanded="false" aria-selected="false"><div class="event-time large-8"><i class="fa fa-clock-o"></i>13:30 - 14:30</div>Accordion 3</a>
+    <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="iw2hcj-accordion-label" aria-hidden="true" id="iw2hcj-accordion" style="display: none;">
+      Panel 3. Lorem ipsum dolor
+    </div>
+  </li>
+
+
+
+</ul>
+                  <ul class="accordion" data-accordion="5tl15o-accordion" data-allow-all-closed="true" role="tablist">
+                      <li class="daytitle">
+                          <h5>DAY TWO</h5>
+                          <p>Planning &amp; Prototyping</p>
+                      </li>
+  <li class="accordion-item">
+    <a href="#" class="accordion-title" aria-controls="xzogm5-accordion" role="tab" id="xzogm5-accordion-label" aria-expanded="false" aria-selected="false"><div class="event-time large-8"><i class="fa fa-clock-o"></i>09:00 - 09:30</div>Welcome</a>
+    <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="xzogm5-accordion-label" aria-hidden="true" id="xzogm5-accordion" style="display: none;">
+      Panel 1. Lorem ipsum dolor
+    </div>
+  </li>
+  <li class="accordion-item">
+    <a href="#" class="accordion-title" aria-controls="q06uhc-accordion" role="tab" id="q06uhc-accordion-label" aria-expanded="false" aria-selected="false"><div class="event-time large-8"><i class="fa fa-clock-o"></i>09:30 - 10:30</div>Introduction</a>
+    <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="q06uhc-accordion-label" aria-hidden="true" id="q06uhc-accordion" style="display: none;">
+      Panel 2. Lorem ipsum dolor
+    </div>
+  </li>
+  <li class="accordion-item">
+    <a href="#" class="accordion-title" aria-controls="iw2hcj-accordion" role="tab" id="iw2hcj-accordion-label" aria-expanded="false" aria-selected="false"><div class="event-time large-8"><i class="fa fa-clock-o"></i>10:30 - 11:30</div>Accordion 3</a>
+    <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="iw2hcj-accordion-label" aria-hidden="true" id="iw2hcj-accordion" style="display: none;">
+      Panel 3. Lorem ipsum dolor
+    </div>
+  </li>
+  <li class="accordion-item">
+    <a href="#" class="accordion-title" aria-controls="iw2hcj-accordion" role="tab" id="iw2hcj-accordion-label" aria-expanded="false" aria-selected="false"><div class="event-time large-8"><i class="fa fa-clock-o"></i>11:30 - 13:30</div>Accordion 3</a>
+    <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="iw2hcj-accordion-label" aria-hidden="true" id="iw2hcj-accordion" style="display: none;">
+      Panel 3. Lorem ipsum dolor
+    </div>
+  </li>
+
+  <li class="accordion-item">
+    <a href="#" class="accordion-title" aria-controls="iw2hcj-accordion" role="tab" id="iw2hcj-accordion-label" aria-expanded="false" aria-selected="false"><div class="event-time large-8"><i class="fa fa-clock-o"></i>14:00 - 15:30</div>Accordion 3</a>
+    <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="iw2hcj-accordion-label" aria-hidden="true" id="iw2hcj-accordion" style="display: none;">
+      Panel 3. Lorem ipsum dolor
+    </div>
+  </li>
+
+
+
+</ul>
+
+
+                  <ul class="accordion" data-accordion="5tl15o-accordion" data-allow-all-closed="true" role="tablist">
+                      <li class="daytitle">
+                          <h5>DAY THREE</h5>
+                          <p>Planning &amp; Prototyping</p>
+                      </li>
+
+                      <li class="accordion-item">
+
+                          <a href="#" class="accordion-title" aria-controls="xzogm5-accordion" role="tab" id="xzogm5-accordion-label" aria-expanded="false" aria-selected="false"><div class="event-time large-8"><i class="fa fa-clock-o"></i>09:00 - 09:30</div>Welcome</a>
+
+                          <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="xzogm5-accordion-label" aria-hidden="true" id="xzogm5-accordion" style="display: none;">
+      Panel 1. Lorem ipsum dolor
+
+                          </div>
+
+                      </li>
+  <li class="accordion-item">
+    <a href="#" class="accordion-title" aria-controls="q06uhc-accordion" role="tab" id="q06uhc-accordion-label" aria-expanded="false" aria-selected="false">
+        <div class="event-time large-8"><i class="fa fa-clock-o"></i>09:00 - 09:30</div>
+        Introduction</a>
+    <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="q06uhc-accordion-label" aria-hidden="true" id="q06uhc-accordion" style="display: none;">
+      Panel 2. Lorem ipsum dolor
+    </div>
+  </li>
+  <li class="accordion-item">
+    <a href="#" class="accordion-title" aria-controls="iw2hcj-accordion" role="tab" id="iw2hcj-accordion-label" aria-expanded="false" aria-selected="false"><div class="event-time large-8"><i class="fa fa-clock-o"></i>09:00 - 09:30</div>Accordion 3</a>
+    <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="iw2hcj-accordion-label" aria-hidden="true" id="iw2hcj-accordion" style="display: none;">
+      Panel 3. Lorem ipsum dolor
+    </div>
+  </li>
+  <li class="accordion-item">
+    <a href="#" class="accordion-title" aria-controls="iw2hcj-accordion" role="tab" id="iw2hcj-accordion-label" aria-expanded="false" aria-selected="false"><div class="event-time large-8"><i class="fa fa-clock-o"></i>09:00 - 09:30</div>Accordion 3</a>
+    <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="iw2hcj-accordion-label" aria-hidden="true" id="iw2hcj-accordion" style="display: none;">
+      Panel 3. Lorem ipsum dolor
+    </div>
+  </li>
+
+  <li class="accordion-item">
+    <a href="#" class="accordion-title" aria-controls="iw2hcj-accordion" role="tab" id="iw2hcj-accordion-label" aria-expanded="false" aria-selected="false"><div class="event-time large-8"><i class="fa fa-clock-o"></i>09:00 - 09:30</div>Accordion 3</a>
+    <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="iw2hcj-accordion-label" aria-hidden="true" id="iw2hcj-accordion" style="display: none;">
+      Panel 3. Lorem ipsum dolor
+    </div>
+  </li>
+
+  <li class="accordion-item">
+    <a href="#" class="accordion-title" aria-controls="iw2hcj-accordion" role="tab" id="iw2hcj-accordion-label" aria-expanded="false" aria-selected="false">09:00 - 09:30: Accordion 3</a>
+    <div class="accordion-content" data-tab-content="" role="tabpanel" aria-labelledby="iw2hcj-accordion-label" aria-hidden="true" id="iw2hcj-accordion" style="display: none;">
+      Panel 3. Lorem ipsum dolor
+    </div>
+  </li>
+
+</ul>
+
+              </div>
+          </div>
       </section>
       
 <!--      register-->
       <section>
+          <div class="reveal" id="register" data-reveal>
+  <h4>Please register</h4>
+  <form action="">
+      <input name="name" type="text" placeholder="Your name..">
+      <input name="email" type="text" placeholder="Your email..">
+      <button name="send" type="button" class="button">Send</button>
+              </form>
+  <button class="close-button" data-close aria-label="Close reveal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
       </section>
       
       
