@@ -162,6 +162,23 @@ img:hover{
     background-color: mintcream;
     margin-bottom: 15%;
 }
+.event-time{
+    text-align: center;
+    margin-right: 0;
+    padding-right: 0;
+    color: black;
+    font-size: 14px;
+}
+.event-time img{
+    height: 20px;
+    padding-right: 5px;
+}
+.accordion-title{
+    color: orange;
+    font-size: 20px;
+    text-align: left;
+    padding: 5px;
+}
 
 /********register***********/
 
