@@ -1,6 +1,12 @@
 /********General***********/
-
-
+.wrap{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1100px;
+}
+h4{
+    padding-bottom: 15%;
+}
 
 
 /********Header***********/
@@ -11,17 +17,33 @@
 
 
 /********hero***********/
+.hero{
+    height: 500px;
+    background-image:url(africa.jpg);
+}
 
-
-
+.twitter{
+    border-right: 1px solid black;
+}
+.overview{
+    padding-bottom: 15%;
+    border-bottom: 1px solid black;
+}
 
 
 /********about***********/
+.about{
+    text-align: center;
+}
+.speakers{
+    padding-top: 15%;
+}
 
 
-
-
-
+.about img{
+    border-radius: 50%;
+    
+}
 
 
 
