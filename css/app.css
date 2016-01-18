@@ -163,7 +163,6 @@ img:hover{
     margin-bottom: 15%;
 }
 .event-time{
-    text-align: center;
     margin-right: 0;
     padding-right: 0;
     color: black;
@@ -177,7 +176,14 @@ img:hover{
     color: orange;
     font-size: 20px;
     text-align: left;
-    padding: 5px;
+    padding: 5%;
+}
+.accordion-title:hover{
+    color: orange;
+}.accordion-title:active{
+    color: orange;
+}.accordion-title:visited{
+    color: orange;
 }
 
 /********register***********/
