@@ -262,12 +262,22 @@
       
 <!--      register-->
       <section>
-          <div class="reveal" id="register" data-reveal>
+          <div class="reveal row small-up-1" id="register" data-reveal>
   <h4>Please register</h4>
   <form action="">
-      <input name="name" type="text" placeholder="Your name..">
-      <input name="email" type="text" placeholder="Your email..">
-      <button name="send" type="button" class="button">Send</button>
+      <div class="row">
+          <input name="name" type="text" placeholder="Your name..">
+      </div>
+      <div class="row">
+          <input name="email" type="email" placeholder="Your email..">
+      </div>
+      <div class="row">
+          <input name="organization" type="text" placeholder="Your Organization...">
+      </div>
+      <div class="row">
+          <button name="send" type="button" class="button">Send</button>
+      </div>
+      
               </form>
   <button class="close-button" data-close aria-label="Close reveal" type="button">
     <span aria-hidden="true">&times;</span>
