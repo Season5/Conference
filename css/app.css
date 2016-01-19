@@ -56,8 +56,8 @@ body{
 
 /********hero***********/
 .hero{
-    margin-top: .7%;
-    -moz-margin-top: .2%;
+    margin-top: 1%;
+/*    -moz-margin-top: .2%;*/
     height: 500px;
     background-color: transparent;
 }
