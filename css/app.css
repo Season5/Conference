@@ -33,6 +33,9 @@ body{
     margin:  20px;
     
 }
+.mee{
+    margin-left: 0;
+}
 /********Header***********/
 
 .headers{
@@ -46,7 +49,10 @@ body{
     padding-top: 9%;
 }
 
-
+.title-bar{
+    background-color: #e6e6e6;
+    color: orange;
+}
 
 /********hero***********/
 .hero{
@@ -56,10 +62,7 @@ body{
     background-color: transparent;
 }
 
-.twitter{
-    border-right: 1px solid black;
-    z-index: 3;
-}
+
 .overview{
     padding-bottom: 15%;
     border-bottom: 1px solid black;
@@ -85,9 +88,11 @@ h3{
 }
 .twitter{
     background-color: white;
-    margin-left: -6%;
+/*    margin-left: -6%;*/
     height: 500px;
-        padding-top: 6%;
+        padding-top: 0;
+     border-right: 1px solid black;
+    z-index: 3;
 
 }
 /********about***********/
