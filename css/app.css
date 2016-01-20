@@ -7,8 +7,12 @@
 }
 h4{
     padding-bottom: 7%;
+       font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.lato{
+       font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 html{
                margin: 0 auto;
            
