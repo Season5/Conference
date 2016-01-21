@@ -269,15 +269,22 @@
       <section>
           <div class="reveal large-10 small-10 medium-10" id="register" data-reveal>
   <h4>Please register</h4>
-  <form action="" onsubmit="">
+  <form>
           <input name="name" type="text" placeholder="Your name.." id="name" required aria-required="true" area-describedby="name-format" pattern="[A-Za-z-0-9]+\s[A-Za-z-'0-9]+" title="firstName LastName">
-      <input type="radio" name="gender" value="M" checked><input name="radio" name="gender" value="F">
+      Male: <input type="radio" name="gender" value="M" checked>Female: <input type="radio" name="gender" value="F">
           <input name="email" type="email" placeholder="Your email.." id="email" required aria-required="true">
-          <input name="phone" type="tel" placeholder="Your Phone Number..." id="phone" required aria-required="true" pattern="[\+]\d{12}">
+          <input name="phone" type="tel" placeholder="Your Phone Number..." id="phone" required aria-required="true" pattern="[\+]\d{12}" title="+xxxxxxxxxx(10 digits)">
           <input name="organization" type="text" placeholder="Your Organization..." id="organization" required aria-required="true">
           <button name="send" type="submit" class="button" id="sendbtn">Send</button>
 
               </form>
+<!--
+              <div class="form-group">
+                  <input type="text" id="txtNewMessage" class="form-control">
+                  <button id="btUpdateMessage" class="btn btn-primary">Update</button>
+              </div>
+-->
+
 
   <button class="close-button" data-close aria-label="Close reveal" type="button">
     <span aria-hidden="true">&times;</span>
@@ -294,10 +301,60 @@
       
       
       </section>
-    <script type="text/javascript">
+<!--
+    <script>
+        var lblCurrentMessage = document.getElementById('lblCurrentMessage'),
+            txtNewMessage = document.getElementById('txtNewMessage'),
+            btUpdateMessage = document.getElementById('btUpdateMessage'),
+            rootRef = new Firebase('https://scorching-fire-8402.firebaseio.com/'),
+            currentMessageRef = rootRef.child('currentMessage');
+        btUpdateMessage.addEventListener('click', function(){
+            currentMessageRef.set(txtNewMessage.value);
+            txtNewMessage.value = '';
+        })
+    </script>
+-->
 
+    <script type="text/javascript">;
+
+var ;
+
+var name = document.getElementById('name'),
+email = document.getElementById('email'),
+gender = document.getElementsByName('gender'),
+phone = document.getElementById('phone'),
+organization = document.getElementById('organization'),
+sendbtn = document.getElementById('sendbtn'),
+myDataRef = new FireBase('https://scorching-fire-8402.firebaseio.com/'),
+    nameRef = myDataRef.child('name');
+        sendbtn.addEventListener('click', function(){
+            name.set({name: name.value,email: email.value, phone: phone.value,organization: organization.value});
+        })
 
               </script>
+<!--
+    <script>
+        var url = "https://scorching-fire-8402.firebaseio.com/";
+
+var firebaseRef = new Firebase(url);
+
+function funct1(evt)
+{
+
+    var name = $('#name').val();
+    var email = $('#email').val();
+    var phone = $('#phone').val();
+    var organization = $('#organization').val();
+    firebaseRef.set({name: name, email: email, phone: date});
+    evt.preventDefault();
+
+}
+
+var submit = document.getElementById('#sendbtn');
+
+submit.onclick = funct1;
+    </script>
+-->
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/vendor/what-input.min.js"></script>
     <script src="js/foundation.min.js"></script>
