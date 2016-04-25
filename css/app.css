@@ -1,38 +1,31 @@
 /******************************************************************GENERAL*********************************************************************************/
 
 body {
-  background: #293f50;
-  color: #888;
-  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #293f50;
+    color: #888;
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /********General***********/
 
 
-
-
-
-
-
-
-
 /*trying*/
-.wrap{
+
+.wrap {
     margin: 0 auto;
     width: 90%;
     max-width: 1100px;
-    
 }
-h4{
+h4 {
     padding-bottom: 7%;
-       font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
-.backg{
+.backg {
     background-image: url(orange.jpg);
     background-size: 100% 100%;
     height: 500px;
 }
+
 /*
 html{
                margin: 0 auto;
@@ -49,207 +42,187 @@ html{
 
 }
 */
-body{
-     font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-/*    font-family:monospace;*/
-    
-    h5{
-           font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    } 
+
+body {
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*    font-family:monospace;*/
+    h5 {
+        font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
 }
-.logos{
+.logos {
     height: 30px;
-    margin:  20px;
-    
+    margin: 20px;
 }
-.mee{
+.mee {
     margin-left: 0;
 }
+
 /********Header***********/
 
-.headers{
+.headers {
     background-color: orange;
     position: fixed;
     width: 100%;
-    top:0;
+    top: 0;
     z-index: 5;
 }
-.column{
+.column {
     padding-top: 9%;
 }
-
-.title-bar{
+.title-bar {
     background-color: #e6e6e6;
     color: orange;
 }
 
 /********hero***********/
-.hero{
+
+.hero {
     margin-top: .7%;
     -moz-margin-top: .2%;
     height: 500px;
     background-color: transparent;
-    
-    
 }
-
-
-.overview{
+.overview {
     padding-bottom: 15%;
-    border-bottom:  2px solid orange;
+    border-bottom: 2px solid orange;
 }
-
-.hero h1{
-     padding-top: 15%;
+.hero h1 {
+    padding-top: 15%;
     padding-left: 30%;
     font-size: 65px;
     color: orange;
-    
 }
-h3{
-    color:orange;
+h3 {
+    color: orange;
 }
-.top-bar-right a{
+.top-bar-right a {
     color: orange;
     font-size: 20px;
     padding-top: 8%;
 }
-.top-bar{
+.top-bar {
     margin-bottom: 4px;
 }
-.twitter{
+.twitter {
     background-color: white;
-/*    margin-left: -6%;*/
+    /*    margin-left: -6%;*/
     height: 500px;
-        padding-top: 7%;
-     border-right: 1px solid black;
+    padding-top: 4%;
+    border-right: 1px solid black;
     z-index: 3;
-       font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.twitter-timeline {
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#latoz {
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
-}
-.twitter-timeline{
-     font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-#latoz{
-     font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
 /********about***********/
-.about{
+
+.about {
     text-align: center;
     background-color: mintcream;
-/*    margin-bottom: 15%;*/
-    
+    /*    margin-bottom: 15%;*/
 }
-.about overview{
+.about overview {
     padding-top: 5%;
 }
-.speakers{
+.speakers {
     padding-top: 7%;
-        padding-bottom: 10%;
-    
+    padding-bottom: 10%;
 }
-
-.speakers h5{
-       font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+.speakers h5 {
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.about img{
+.about img {
     border-radius: 50%;
-    
 }
-img:hover{
-   border:5px solid orange;
+img:hover {
+    border: 5px solid orange;
     background-color: orange;
-    
-    
 }
-
-.button{
+.button {
     height: 50%;
-    
-     margin-top: 15%;
-    
+    margin-top: 15%;
     background-color: orange;
-
 }
-#viewmore{
+#viewmore {
     margin-top: 0;
     margin-bottom: 5%;
 }
-
-.button:hover{
+.button:hover {
     background-color: orange;
     opacity: 0.5;
-    
-    
 }
-.about p{
+.about p {
     font-size: 30px;
-    
-    
 }
-.about h4{
-        font-size: 70px;
+.about h4 {
+    font-size: 70px;
     /* border-top: 1px solid; */
     color: orange;
-        padding-top: 5%;
+    padding-top: 5%;
 }
-
-
-
 
 /********schedule***********/
-.schedule p{
-    color: orange;
-}
-.schedule h4{
-        font-size: 70px;
-/*     border-bottom: 1px solid; */
-    color: orange;
-        padding-top: 5%;
 
+.schedule p {
+    color: orange;
 }
-#schedulesection{
+.schedule h4 {
+    font-size: 70px;
+    /*     border-bottom: 1px solid; */
+    color: orange;
+    padding-top: 5%;
+}
+#schedulesection {
     text-align: center;
 }
-.schedule{
+.schedule {
     text-align: center;
     background-color: mintcream;
     margin-bottom: 0%;
-       font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.event-time{
+.event-time {
     margin-right: 0;
     padding-right: 0;
     color: black;
     font-size: 14px;
 }
-.event-time img{
+.event-time img {
     height: 20px;
     padding-right: 5px;
 }
-.accordion-title{
+.accordion-title {
     color: orange;
     font-size: 20px;
     text-align: left;
     padding: 5%;
 }
-.accordion-title:hover{
+.accordion-title:hover {
     color: orange;
-}.accordion-title:active{
+}
+.accordion-title:active {
     color: orange;
-}.accordion-title:visited{
+}
+.accordion-title:visited {
     color: orange;
 }
 
 /********register***********/
 
 
-
-
-
-
-
-
-
 /********footer***********/
 
+
+/*******media query*******/
+
+@media screen and (max-width:639px) {
+    .twitter {
+        display: none;
+    }
+}
